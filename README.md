@@ -32,4 +32,4 @@ This JSON is the **official master file** used by PTVM and Claude AI to suggest 
 
 ## 🔹 RM/hr Calculation
 
-The system calculates RM/hr based on the user’s **Daily Value Target**:
+The system calculates $/hr based on the user’s **Daily Value Target**:
