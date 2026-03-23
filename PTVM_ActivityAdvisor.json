@@ -1,0 +1,206 @@
+{
+  "planned_productive_hours": 8,
+  "leverage_multipliers": {
+    "low": 0.2,
+    "medium": 1,
+    "high": 1.5
+  },
+  "categories": [
+    {
+      "name": "Value Creation",
+      "description": "Create meaningful outcomes, influence results, solve important problems",
+      "subcategories": [
+        {
+          "name": "High-Impact Execution",
+          "types": [
+            {
+              "type_name": "Reduce risk / avoid negative outcomes",
+              "default_note": "Prevents loss or mitigates negative consequences",
+              "default_leverage": "high"
+            },
+            {
+              "type_name": "Deliver key results / important output",
+              "default_note": "Produces outcomes others rely on",
+              "default_leverage": "high"
+            },
+            {
+              "type_name": "Solve meaningful problems / make decisions",
+              "default_note": "Analyzes options and determines next steps",
+              "default_leverage": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategic Thinking",
+      "description": "Improve systems, frameworks, or planning for better decisions",
+      "subcategories": [
+        {
+          "name": "Vision Design",
+          "types": [
+            {
+              "type_name": "Design / create new system or framework",
+              "default_note": "High-leverage creation of new decision framework",
+              "default_leverage": "high"
+            }
+          ]
+        },
+        {
+          "name": "Decision Modeling",
+          "types": [
+            {
+              "type_name": "Refine / improve existing framework",
+              "default_note": "Improves efficiency or quality of decisions",
+              "default_leverage": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Opportunity Sensing",
+          "types": [
+            {
+              "type_name": "Identify opportunities / leverage points",
+              "default_note": "Spots openings for advantage or impact",
+              "default_leverage": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning & Capability Building",
+      "description": "Learn or strengthen skills / knowledge",
+      "subcategories": [
+        {
+          "name": "Strategic Learning",
+          "types": [
+            {
+              "type_name": "Deep / applied skill upgrade",
+              "default_note": "Prepares for future higher impact",
+              "default_leverage": "medium"
+            }
+          ]
+        },
+        {
+          "name": "Skill Development",
+          "types": [
+            {
+              "type_name": "Tactical skill upgrade",
+              "default_note": "Improves immediate capabilities",
+              "default_leverage": "medium"
+            }
+          ]
+        },
+        {
+          "name": "General Learning",
+          "types": [
+            {
+              "type_name": "Casual / exploratory knowledge",
+              "default_note": "Indirect impact on capability",
+              "default_leverage": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recovery & Energy Management",
+      "description": "Restore energy, focus, or mental/physical capacity",
+      "subcategories": [
+        {
+          "name": "Deep Recovery",
+          "types": [
+            {
+              "type_name": "Rest / sleep / downtime",
+              "default_note": "Maximizes mental and physical reset",
+              "default_leverage": "high"
+            }
+          ]
+        },
+        {
+          "name": "Mental Reset",
+          "types": [
+            {
+              "type_name": "Light reset / walking / meditation",
+              "default_note": "Clears mind, improves clarity",
+              "default_leverage": "low"
+            }
+          ]
+        },
+        {
+          "name": "Physical Optimization",
+          "types": [
+            {
+              "type_name": "Exercise / training",
+              "default_note": "Improves physical capacity and energy",
+              "default_leverage": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Relationship & Influence",
+      "description": "Connect with or influence people / maintain relationships",
+      "subcategories": [
+        {
+          "name": "Key Stakeholder Engagement",
+          "types": [
+            {
+              "type_name": "Influence / build trust",
+              "default_note": "Maintains alignment and decision influence",
+              "default_leverage": "high"
+            }
+          ]
+        },
+        {
+          "name": "Team Leadership",
+          "types": [
+            {
+              "type_name": "Guide / coach / lead team",
+              "default_note": "Improves team effectiveness",
+              "default_leverage": "medium"
+            }
+          ]
+        },
+        {
+          "name": "General Communication",
+          "types": [
+            {
+              "type_name": "Casual / check-in communication",
+              "default_note": "Maintains rapport and alignment",
+              "default_leverage": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Execution",
+      "description": "Maintain order, keep things running, or do routine tasks",
+      "subcategories": [
+        {
+          "name": "Admin / Documentation",
+          "types": [
+            {
+              "type_name": "Filing / organizing / reporting",
+              "default_note": "Maintains operational efficiency",
+              "default_leverage": "low"
+            }
+          ]
+        },
+        {
+          "name": "Logistics / Coordination",
+          "types": [
+            {
+              "type_name": "Scheduling / coordinating tasks",
+              "default_note": "Keeps workflow smooth",
+              "default_leverage": "low"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
